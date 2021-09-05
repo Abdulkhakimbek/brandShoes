@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+  </head>
+
+  <body>
+
+    <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+
+<h2 style="text-align:center">The Best Sneaker Brands</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/nike-img.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/adidas-img.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/asics-img.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/jordan-img.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/newBalance-img.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/yeezy-img.jpg" >
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/nike-img.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nike ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/adidas-img.jpg" style="width:100%" onclick="currentSlide(2)" alt="Adidas ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/asics-img.jpg" style="width:100%" onclick="currentSlide(3)" alt="Asics">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/jordan-img.jpg" style="width:100%" onclick="currentSlide(4)" alt="Jordan ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/newBalance-img.jpg" style="width:100%" onclick="currentSlide(5)" alt="NewBalance">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/yeezy-img.jpg" style="width:100%" onclick="currentSlide(6)" alt="Yeezy ">
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="partner">
+<h2>partner section</h2>
+  </div>
+</section>
+
+<footer>
+<h3>footer</h3>
+</footer>
+
+
+
+
+<script src="main.js" charset="utf-8"></script>
+  </body>
+
+</html>
